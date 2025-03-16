@@ -4,7 +4,7 @@ class StringCalculator {
     return numbers
       .split(",")
       .map(Number)
-      .reduce((sum, num) => sum + num, 0);
+      .reduce((total, num) => total + num, 0);
   }
 }
 module.exports = StringCalculator;
